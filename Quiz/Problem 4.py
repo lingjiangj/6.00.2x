@@ -6,4 +6,12 @@
 def max_contig_sum(L):
     """ L, a list of integers, at least one positive
     Returns the maximum sum of a contiguous subsequence in L """
-    #YOUR CODE HERE
+    
+    tempMax = L[0]
+    maximum = L[0]
+    for i in L[1:]:
+         tempMax = max(i+tempMax,i)
+         maximum = max (maximum, tempMax)
+    return maximum
+
+

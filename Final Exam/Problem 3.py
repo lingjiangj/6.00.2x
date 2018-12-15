@@ -1,0 +1,1 @@
+# In a lecture, there are 3 things you might do: listen, sleep, or Facebook (in a single lecture, you might do all, some, or none of them). Lectures are independent of each other, the probabilities associated with the activities are independent of each other, and they are all > 0. You are given the following class, Lecture, and the function, get_mean_and_std.
